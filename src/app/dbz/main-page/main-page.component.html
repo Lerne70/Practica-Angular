@@ -1,0 +1,13 @@
+<h1>Dragon Ball Z</h1>
+<hr />
+
+<div class="row">
+  <div class="col">
+    <!-- Lo que estas en los [] es el nombre que se la da al @Input que se encuentra en el compoente hijo donde se estara recibiendo el valor de lo que este entre los "" que es el nombre de la varible que esta en el componente padre-->
+    <app-personajes></app-personajes>
+  </div>
+
+  <div class="col">
+    <app-agregar [nuevo]="nuevo"></app-agregar>
+  </div>
+</div>
